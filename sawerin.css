@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+}
+.logo img {
+  padding-top: 2rem;
+  width: 35rem;
+}
+.logo h1 {
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+}
+.logo p {
+  justify-content: center;
+}
+
+/* buttonStart */
+#loginButton {
+  font-family: 'monospace';
+  margin-top: 2rem;
+  padding: 3%;
+  border-radius: 1rem;
+  background-color: rgb(252, 233, 126);
+  border: none;
+  box-shadow: 1px 3px 4px 2px black;
+  font-size: 1.5rem;
+}
+#loginButton:hover {
+  background-color: rgb(138, 120, 20);
+}
+.hidden {
+  display: none;
+}
+/* buttonEnd */
+/* login */
+
+h2 {
+  text-align: center;
+}
+
+#loginForm {
+  border: 3px solid black;
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  background-color: goldenrod;
+}
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+}
+
+input[type='email'] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+input[type='password'] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+input[type='text'] {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+button[type='submit'] {
+  display: block;
+  width: 104%;
+  padding: 10px;
+  margin-top: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+/* registrasi Start */
+.missing {
+  display: none;
+}
+#regis {
+  font-family: 'monospace';
+  margin-top: 2rem;
+  padding: 3%;
+  border-radius: 1rem;
+  background-color: rgb(252, 233, 126);
+  border: none;
+  box-shadow: 1px 3px 4px 2px black;
+  font-size: 1.5rem;
+}
+#regis:hover {
+  background-color: rgb(138, 120, 20);
+}
+#registrasi {
+  border: 3px solid black;
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  background-color: goldenrod;
+}
+/* registrasi End */
+/* deskripsi start */
+.deskripsi {
+  background-color: goldenrod;
+  box-shadow: 1px 3px 4px 4px black;
+  margin-top: 2rem;
+  border-radius: 5rem;
+  width: 40rem;
+  height: 32rem;
+  margin-bottom: 5rem;
+}
+.deskripsi p {
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.deskripsi h1 {
+  display: flex;
+  padding-left: 11rem;
+  padding-top: 2rem;
+}
+.pembayaran {
+  display: flex;
+  align-items: center;
+  padding-left: 7rem;
+}
+/* deskripsi end */
+/* footer start */
+.footer {
+  background-color: #f3d347;
+  height: 1rem;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+.content p {
+  padding-top: 1rem;
+}
+/*footer end  */
+
+@media (max-width: 450px) {
+  body {
+    width: 450px;
+  }
+}
